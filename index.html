@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>都道府県クイズ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>都道府県クイズ</h1>
+        <button id="start-button">クイズを開始する</button>
+        
+        <div id="quiz-section" style="display:none;">
+            <p id="question"></p>
+            <div id="answers"></div>
+            <button id="next-button" style="display:none;">次の問題</button>
+        </div>
+        
+        <div id="result-section" style="display:none;">
+            <h2>結果</h2>
+            <p id="score"></p>
+            <button id="retry-button">再挑戦する</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
